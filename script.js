@@ -1,8 +1,8 @@
 function isSameType(value1, value2) {
-  const typeA = typeof eval(a);
-    const typeB = typeof eval(b);
+  const canBeNumberA = !isNaN(Number(a));
+    const canBeNumberB = !isNaN(Number(b));
     
-    return typeA === typeB;
+    return canBeNumberA === canBeNumberB;
 	
 }
 
