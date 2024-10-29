@@ -1,6 +1,6 @@
 function isSameType(value1, value2) {
-  const canBeNumberA = !isNaN(Number(a));
-    const canBeNumberB = !isNaN(Number(b));
+  const canBeNumberA = !isNaN(Number(value1));
+	const canBeNumberB = !isNaN(Number(value2));
     
     return canBeNumberA === canBeNumberB;
 	
