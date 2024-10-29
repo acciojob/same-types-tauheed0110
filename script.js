@@ -1,6 +1,9 @@
 function isSameType(value1, value2) {
-  //your js code here
-	return typeof value1 === typeof value2;
+  const typeA = typeof eval(a);
+    const typeB = typeof eval(b);
+    
+    return typeA === typeB;
+	
 }
 
 // do not change the code below.
